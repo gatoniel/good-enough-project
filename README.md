@@ -1,5 +1,7 @@
 # Good Enough Project
 
+Forked from [Good Enough Project by bvreede](https://github.com/bvreede/good-enough-project).
+
 A cookiecutter project structure based on the [Reproducible Science Cookiecutter](https://github.com/mkrapp/cookiecutter-reproducible-science) template by [Mario Krapp](https://github.com/mkrapp), and with close resemblances to the philosophy of [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science): *A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.*
 
 The name (and most of the structure) are derived from the paper [Good Enough Practices in Scientific Computing](https://doi.org/10.1371/journal.pcbi.1005510), Wilson _et al._, PLOS Computational Biology (2017).
@@ -29,6 +31,7 @@ The project structure distinguishes three kinds of folders:
 ├── LICENSE.md
 ├── README.md
 ├── requirements.txt
+├── Snakefile
 ├── bin                <- Compiled and external code, ignored by git (PG)
 │   └── external       <- Any external source code, ignored by git (RO)
 ├── config             <- Configuration files (HW)
@@ -42,7 +45,8 @@ The project structure distinguishes three kinds of folders:
 ├── results
 │   ├── figures        <- Figures for the manuscript or reports (PG)
 │   └── output         <- Other output for the manuscript or reports (PG)
-└── src                <- Source code for this project (HW)
+├── src                <- Source code for this project (HW)
+└── logs               <- Log files (from Snakemake) (PG)
 
 ```
 
