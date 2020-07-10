@@ -32,6 +32,9 @@ The project structure distinguishes three kinds of folders:
 ├── README.md
 ├── requirements.txt
 ├── Snakefile
+├── workflow           <- Snakemake workflow
+│   ├── rules          <- Additional rules for Snakemake (HW)
+│   └── envs           <- Conda environment yaml files for Snakemake (HW)
 ├── bin                <- Compiled and external code, ignored by git (PG)
 │   └── external       <- Any external source code, ignored by git (RO)
 ├── config             <- Configuration files (HW)
