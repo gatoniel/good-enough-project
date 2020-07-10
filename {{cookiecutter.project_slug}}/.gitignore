@@ -5,6 +5,8 @@
 /data/temp
 /data/processed
 /data/raw
+# also exclude logs
+/logs
 
 
 # <-- start Standard python gitignore from github
